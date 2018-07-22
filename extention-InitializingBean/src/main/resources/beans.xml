@@ -8,6 +8,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="glmapperInitializingBean" class="com.glmapper.extention.base.GlmapperInitializingBean"/>
+    <bean id="glmapperInitMethod" class="com.glmapper.extention.base.GlmapperInitMethod" init-method="testInitMethod"/>
 
-    <bean id="glmapperInitializingBean" class="com.glmapper.extention.GlmapperInitializingBean" init-method="testInitMethod"/>
 </beans>
