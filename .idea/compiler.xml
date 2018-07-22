@@ -6,7 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="extention-ApplicationListener" />
+        <module name="extention-Aware" />
+        <module name="extention-BeanFactoryPostProcessor" />
+        <module name="extention-BeanPostProcessor" />
+        <module name="extention-FactoryBean" />
         <module name="extention-InitializingBean" />
+        <module name="extention-NamespaceHandler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />

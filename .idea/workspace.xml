@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0880e62-bd1c-4405-9129-dd7f022266bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Formatter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/GlmapperInitMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/use/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tala111.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tala111.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-ApplicationListener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-Aware/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-BeanFactoryPostProcessor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-BeanPostProcessor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-FactoryBean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extention-NamespaceHandler/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/GlmapperInitializingBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/GlmapperInitializingBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extention-InitializingBean/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/extention-InitializingBean/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/extention-InitializingBean/target/" />
+    <ignored path="$PROJECT_DIR$/extention-BeanPostProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/extention-BeanFactoryPostProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/extention-FactoryBean/target/" />
+    <ignored path="$PROJECT_DIR$/extention-ApplicationListener/target/" />
+    <ignored path="$PROJECT_DIR$/extention-NamespaceHandler/target/" />
+    <ignored path="$PROJECT_DIR$/extention-Aware/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,44 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Formatter.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Formatter.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extention-InitializingBean/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="117" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GlmapperInitMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/GlmapperInitMethod.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,16 +48,16 @@
         <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/GlmapperInitializingBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,29 +65,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-BeanPostProcessor/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/use/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-BeanFactoryPostProcessor/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="InitializingBean.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-FactoryBean/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-ApplicationListener/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-NamespaceHandler/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extention-Aware/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -155,6 +141,7 @@
         <option value="$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/use/package-info.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Formatter.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -202,51 +189,7 @@
               <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
               <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
               <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
-              <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
-              <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
-              <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extention" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
-              <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extention" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="glmapper-spring-extention" type="b2602c69:ProjectViewProjectNode" />
-              <item name="glmapper-spring-extention" type="462c0819:PsiDirectoryNode" />
-              <item name="extention-InitializingBean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="extention" type="462c0819:PsiDirectoryNode" />
-              <item name="use" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,10 +293,18 @@
       <updated>1532177766120</updated>
       <workItem from="1532177769481" duration="1948000" />
     </task>
+    <task id="LOCAL-00001" summary="add code format plugin">
+      <created>1532273139353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532273139353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3089000" />
+    <option name="totallyTimeSpent" value="3908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -425,6 +376,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add code format plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code format plugin" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -495,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -520,14 +468,14 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
-          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="57" />
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Formatter.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -552,17 +500,48 @@
     <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/base/GlmapperInitializingBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extention-InitializingBean/src/main/java/com/glmapper/extention/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-BeanPostProcessor/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-BeanFactoryPostProcessor/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-FactoryBean/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-ApplicationListener/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-NamespaceHandler/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extention-Aware/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>

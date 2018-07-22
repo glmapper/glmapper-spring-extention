@@ -10,6 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>extention-InitializingBean</module>
+        <module>extention-BeanPostProcessor</module>
+        <module>extention-BeanFactoryPostProcessor</module>
+        <module>extention-FactoryBean</module>
+        <module>extention-ApplicationListener</module>
+        <module>extention-NamespaceHandler</module>
+        <module>extention-Aware</module>
     </modules>
 
 
