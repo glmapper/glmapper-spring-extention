@@ -10,6 +10,17 @@ import org.springframework.beans.factory.InitializingBean;
  */
 public class GlmapperInitializingBean implements InitializingBean {
 
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+        System.out.println("set name properties");
+    }
+
     public void afterPropertiesSet() throws Exception {
         System.out.println("test afterPropertiesSet");
     }

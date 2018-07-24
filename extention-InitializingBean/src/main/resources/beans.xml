@@ -8,7 +8,14 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="glmapperInitializingBean" class="com.glmapper.extention.base.GlmapperInitializingBean"/>
+    <bean id="glmapperInitializingBean" class="com.glmapper.extention.base.GlmapperInitializingBean">
+        <property name="name" value="glmapper"/>
+    </bean>
     <bean id="glmapperInitMethod" class="com.glmapper.extention.base.GlmapperInitMethod" init-method="testInitMethod"/>
 
+    <bean id="glmapperCacheManager" class="com.glmapper.extention.use.GlmapperCacheManager">
+        <property name="conflictStrategy" value="cover"/>
+        <property name="maxSize" value="1000"/>
+        <property name="timeOut" value="60000"/>
+    </bean>
 </beans>
