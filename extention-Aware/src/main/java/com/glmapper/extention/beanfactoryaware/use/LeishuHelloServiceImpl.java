@@ -9,6 +9,6 @@ package com.glmapper.extention.beanfactoryaware.use;
 public class LeishuHelloServiceImpl implements HelloService {
 
     public void sayHello() {
-        System.out.println("Hello leishu@glmapper");
+        System.out.println("你好，磊叔");
     }
 }

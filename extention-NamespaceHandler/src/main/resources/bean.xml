@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:bridge="http://bridge.glmapper.com/schema/bridge"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://bridge.glmapper.com/schema/bridge
+       http://bridge.glmapper.com/schema/bridge.xsd">
+
+
+<bridge:application name="bridgeTestApplication" id="bridgeTestApplication" version="1.0" organization="bridge.glmapper.com" owner="leishu@glmapper"/>
+</beans>

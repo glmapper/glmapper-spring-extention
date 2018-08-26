@@ -10,8 +10,8 @@
 
 
     <!--&lt;!&ndash;test for applicationContextAwre&ndash;&gt;-->
-    <!--<bean id="helloService" class="com.glmapper.extention.applicationcontextaware.HelloService"/>-->
-    <!--<bean id="glmapperApplicationContext" class="com.glmapper.extention.applicationcontextaware.GlmapperApplicationContext"/>-->
+    <!--<bean id="helloService" class="com.glmapper.extention.applicationcontextaware.HelloService"/>
+    <bean id="glmapperApplicationContext" class="com.glmapper.extention.applicationcontextaware.GlmapperApplicationContext"/>-->
 
     <!--test for beanFactory-->
     <bean id="glmapperHelloService" class="com.glmapper.extention.beanfactoryaware.use.GlmapperHelloServiceImpl"/>

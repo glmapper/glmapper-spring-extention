@@ -22,5 +22,6 @@ public class MainTest {
         //这个只需要传入不同HelloService的实现类的beanName，就可以执行不同的业务逻辑
         helloFacade.sayHello("glmapperHelloService");
         helloFacade.sayHello("leishuHelloService");
+
     }
 }

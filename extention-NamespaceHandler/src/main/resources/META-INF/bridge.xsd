@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:beans="http://www.springframework.org/schema/beans"
+            xmlns:tool="http://www.springframework.org/schema/tool"
+            xmlns="http://bridge.glmapper.com/schema/bridge"
+            targetNamespace="http://bridge.glmapper.com/schema/bridge">
+
+    <xsd:import namespace="http://www.springframework.org/schema/beans"/>
+
+    <xsd:complexType name="applicationType">
+        <xsd:attribute name="id" type="xsd:ID"/>
+        <xsd:attribute name="name" type="xsd:string" use="required"/>
+        <xsd:attribute name="version" type="xsd:string"/>
+        <xsd:attribute name="owner" type="xsd:string"/>
+        <xsd:attribute name="organization" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:element name="application" type="applicationType"/>
+</xsd:schema>
