@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+  com.example.boot.demo.initializer.GlmapperApplicationContextInitializer
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.example.boot.demo.environment.GlmapperEnvironmentPostProcess
