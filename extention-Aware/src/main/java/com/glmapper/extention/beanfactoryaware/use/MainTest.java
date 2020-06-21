@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @description: MainTest
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/7/29
  */
 public class MainTest {
@@ -15,7 +15,8 @@ public class MainTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         HelloFacade helloFacade = (HelloFacade) context.getBean("helloFacade");
 
-        GlmapperBeanFactory glmapperBeanFactory = (GlmapperBeanFactory) context.getBean("glmapperBeanFactory");
+        GlmapperBeanFactory glmapperBeanFactory = (GlmapperBeanFactory) context
+            .getBean("glmapperBeanFactory");
         //这里其实可以不通过set方法注入到helloFacade中，可以在helloFacade中通过autowired 注入；这里在使用main方法来执行验证，所以就手动set进入了
         helloFacade.setGlmapperBeanFactory(glmapperBeanFactory);
 

@@ -13,7 +13,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  * 通过这个processor实现了beanDefinition
  * </p>
  *
- * @author: guolei.sgl
+ * @author: glmapper
  * @since: 18/10/28
  */
 public class GlmapperApplicationContextInitializer implements ApplicationContextInitializer {

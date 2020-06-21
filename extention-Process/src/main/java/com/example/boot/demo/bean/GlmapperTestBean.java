@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: guolei.sgl
+ * @author: glmapper
  * @since: 18/10/28
  */
 @Component

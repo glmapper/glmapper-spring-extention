@@ -10,7 +10,7 @@ import org.w3c.dom.Element;
 /**
  * @description: BridgeBeanDefinitionParser
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/8/26
  */
 public class ApplicationBeanDefinitionParser implements BeanDefinitionParser {
@@ -24,7 +24,8 @@ public class ApplicationBeanDefinitionParser implements BeanDefinitionParser {
         beanDefinition.getPropertyValues().add("name", element.getAttribute("name"));
         beanDefinition.getPropertyValues().add("version", element.getAttribute("version"));
         beanDefinition.getPropertyValues().add("owner", element.getAttribute("owner"));
-        beanDefinition.getPropertyValues().add("organization", element.getAttribute("organization"));
+        beanDefinition.getPropertyValues()
+            .add("organization", element.getAttribute("organization"));
         parserContext.getRegistry().registerBeanDefinition(id, beanDefinition);
         return beanDefinition;
     }

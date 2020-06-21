@@ -1,7 +1,7 @@
 /**
  * @description: [描述文本]
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/7/22
  */
 package com.glmapper.extention.use;

@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @description: [描述文本]
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/7/21
  */
 public class MainTest {
@@ -23,7 +23,8 @@ public class MainTest {
         GlmapperInitMethod glmapperInitMethod = (GlmapperInitMethod) applicationContext
             .getBean("glmapperInitMethod");
 
-        GlmapperCacheManager glmapperCacheManager = (GlmapperCacheManager) applicationContext.getBean("glmapperCacheManager");
+        GlmapperCacheManager glmapperCacheManager = (GlmapperCacheManager) applicationContext
+            .getBean("glmapperCacheManager");
         System.out.println(glmapperCacheManager.getConflictStrategy());
 
     }

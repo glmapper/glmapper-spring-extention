@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="smartDataSource" class="com.glmapper.test.GlmapperSource" init-method="init">
+        <property name="delegate" ref="simpleDataSource"/>
+    </bean>
+    <!-- dataSource pool -->
+    <bean id="simpleDataSource" class="com.glmapper.test.TestDataSource" primary="true"/>
+
+    <bean id = "glmapperBeanPostProcessor" class="com.glmapper.test.bpp.GlmapperBeanPostProcessor"/>
+
+    <bean id = "glmapperBeanFactoryPostProcessor" class="com.glmapper.test.bpp.GlmapperBeanFactoryPostProcessor"/>
+</beans>

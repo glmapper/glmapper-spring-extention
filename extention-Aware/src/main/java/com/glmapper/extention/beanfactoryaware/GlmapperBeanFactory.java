@@ -12,7 +12,7 @@ import org.springframework.beans.factory.BeanFactoryAware;
  * 它会拥有一个指向 Spring 容器的引用，可以利用该bean根据传入参数动态获取被spring工厂加载的bean
  *
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/7/29
  */
 public class GlmapperBeanFactory implements BeanFactoryAware {
@@ -20,15 +20,15 @@ public class GlmapperBeanFactory implements BeanFactoryAware {
     private BeanFactory beanFactory;
 
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        this.beanFactory=beanFactory;
+        this.beanFactory = beanFactory;
     }
 
     /**
      * 提供一个execute 方法来实现不同业务实现类的调度器方案。
      * @param beanName
      */
-    public void execute(String beanName){
-        HelloService helloService=(HelloService) beanFactory.getBean(beanName);
+    public void execute(String beanName) {
+        HelloService helloService = (HelloService) beanFactory.getBean(beanName);
         helloService.sayHello();
     }
 

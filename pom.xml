@@ -16,6 +16,7 @@
         <module>extention-ApplicationListener</module>
         <module>extention-NamespaceHandler</module>
         <module>extention-Aware</module>
+        <module>extention-SmartLifecycle</module>
     </modules>
 
     <dependencyManagement>

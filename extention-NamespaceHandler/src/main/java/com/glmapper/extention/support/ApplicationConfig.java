@@ -3,7 +3,7 @@ package com.glmapper.extention.support;
 /**
  * @description: ApplicationConfig
  * @email: <a href="glmapper_2018@163.com"></a>
- * @author: guolei.sgl
+ * @author: glmapper
  * @date: 18/8/26
  */
 public class ApplicationConfig {
@@ -56,12 +56,8 @@ public class ApplicationConfig {
 
     @Override
     public String toString() {
-        return "ApplicationConfig{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", version='" + version + '\'' +
-                ", owner='" + owner + '\'' +
-                ", organization='" + organization + '\'' +
-                '}';
+        return "ApplicationConfig{" + "id=" + id + ", name='" + name + '\'' + ", version='"
+               + version + '\'' + ", owner='" + owner + '\'' + ", organization='" + organization
+               + '\'' + '}';
     }
 }

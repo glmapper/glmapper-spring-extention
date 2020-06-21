@@ -21,7 +21,7 @@ import java.util.Properties;
  *     EnvironmentPostProcessor在Spring IOC容器创建之前执行
  * </p>
  *
- * @author: guolei.sgl
+ * @author: glmapper
  * @since: 18/10/28
  */
 @Component

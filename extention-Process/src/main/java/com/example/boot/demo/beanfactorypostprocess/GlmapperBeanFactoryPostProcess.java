@@ -10,7 +10,7 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: guolei.sgl
+ * @author: glmapper
  * @since: 18/10/28
  */
 @Component
